@@ -1,11 +1,10 @@
 import json
 import sys
 import requests
-sys.path.append('./modules')
-from createDict import *
-from modifyData import *
-from downloadFiles import *
-from classes import *
+from modules.createDict import *
+from modules.modifyData import *
+from modules.downloadFiles import *
+from modules.classes import *
 import matplotlib.pyplot as plt
 import numpy as np
 
